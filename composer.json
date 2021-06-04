@@ -1,10 +1,10 @@
 {
   "name": "guflores-web/laravel-couchdb",
-  "description": "A CouchDB v2.0.0 based Eloquent model and Query builder for Laravel",
+  "description": "A CouchDB v2.0.0 based Eloquent model and Query builder for Laravel base on Robson Nascimento project",
   "authors": [
     {
-      "name": "Robson Nascimento",
-      "email": "robsonvnasc@gmail.com"
+      "name": "Guadalupe Flores",
+      "email": "guadalupe.flores.web.com@gmail.com"
     }
   ],
   "license" : "MIT",
@@ -25,7 +25,7 @@
   },
   "autoload": {
         "psr-4": {
-            "Robsonvn\\CouchDB\\": "src"
+            "guflores-web\\CouchDB\\": "src"
         }
    },
    "autoload-dev": {
@@ -34,5 +34,6 @@
            "tests/models",
            "tests/seeds"
        ]
-   }
+   },
+  "minimum-stability": "dev"
 }
